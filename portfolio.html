@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Hello, I'm V.Durgapujitha</h2>
+        <p>I’m a final-year B.Tech student in computer science.
+          <br>
+          In my free time, I enjoy listening to music. I aspire to secure a software job.
+        </p>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I come from a middle-class family. My parents are both hard-working and supportive, and they always teach me the importance of education and perseverance.<br>
+        <div class="container">
+            <div class="title">VFSTR Deemed to be University</div>
+            <div class="year">2021 - 2025</div>
+        </div>
+        
+        <div class="container">
+            <div class="details">
+                Bachelor Of Engineering<br>
+                Vignan University, Vadlamudi<br>
+                CGPA: 7.7
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="title">Sri Chaintanya Junior College</div>
+            <div class="year">2019 - 2021</div>
+        </div>
+        
+        <div class="container">
+            <div class="details">
+                Grade-XII<br>
+                Andhra Pradesh State Board, Guntur<br>
+                Percentage: 89
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="title">Sri Viswa Santhi High School</div>
+            <div class="year">2018 - 2019</div>
+        </div>
+        
+        <div class="container">
+            <div class="details">
+                Grade-X<br>
+                Andhra Pradesh State Board, Guntur<br>
+                CGPA: 9.3
+            </div>
+        </div>
+
+        <br>
+
+        Skills: Machine Learning, Python, SQL.
+        </p>
+    </section>
+    
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <img src="con1.jpeg" alt="Project 1">
+            <p>Project 1: This project is a responsive, single-page website designed to promote an event, specifically a Web Design Conference. The site is visually engaging, featuring a modern, clean layout with high-quality images and clear typography. The page is organized into multiple sections, each serving a specific purpose to provide visitors with all the necessary information about the event.</p>
+            <a href="https://github.com/211fa04149/FAD.git" class="view-project-btn">View Project</a>
+        </div>
+
+        <div class="project">
+            <img src="human.jpeg" alt="Project 2">
+            <p>Project 2: The project aims to create a human activity recognition system using smartphone sensor data, utilizing machine learning algorithms for accurate classification and optimization.</p>
+            <a href="https://github.com/211fa04149/HAR-project.git" class="view-project-btn">View Project</a>
+        </div>
+
+        <div class="project">
+            <img src="res.jpeg" alt="Project 3">
+            <p>Project 3: Involves using PHP for server-side scripting to manage application logic while SQL is used to manage and store data.</p>
+            <a href="https://github.com/211fa04149/wt-food-and-restaurant.git" class="view-project-btn">View Project</a>
+        </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <section> <Email>pujithavandanapu01@gmail.com</Email >
+            <br>
+        call us: 9381637116</section>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

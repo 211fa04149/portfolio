@@ -1,0 +1,203 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:0.9rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Home Section */
+#home {
+    background-color: #e2e2e2;
+    padding: 3rem;
+    text-align: center;
+    font-size : 1 rem;
+}
+
+/* About Section */
+#about p {
+    font-size: 1rem;
+    color: #555;
+}
+/*education styles*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #444444;
+}
+  
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+.details {
+    font-size: 14px;
+}
+  
+.year {
+    font-size: 14px;
+    text-align: right;
+}
+  
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+
+/* Portfolio Section */
+#portfolio .project {
+    display: block;
+    margin-bottom: 1.2rem;
+}
+
+#portfolio .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+#portfolio .project p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 1rem; /* Add space between description and button */
+}
+
+#portfolio .view-project-btn {
+    display: block;
+    width: 100%; /* Make the button full width */
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 0.5rem; /* Optional: adjust spacing between description and button */
+}
+
+#portfolio .view-project-btn:hover {
+    background-color: #555;
+}
+
+/* Contact Section */
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#contact form input, #contact form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+#contact form textarea {
+    resize: vertical;
+}
+
+#contact form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 1.1rem;
+}
+
+#contact form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.1rem ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    #portfolio .project img {
+        margin-bottom: 0.5rem;
+    }
+
+    #portfolio .project p {
+        margin-bottom: 1rem;
+    }
+
+    #portfolio .view-project-btn {
+        width: auto;
+        padding: 0.5rem;
+    }
+}
